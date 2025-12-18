@@ -15,9 +15,11 @@ def exit_game(input_number):
 
 
 random_number = random.randrange(1,100)
-# print(random_number)
-number = input("Guess the secret number between 1-100: ")
+print(random_number)
+
 count = 0
+number = input("Guess the secret number between 1-100: ")
+count = count + 1
 
 if exit_game(number) == False:
 
